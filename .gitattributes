@@ -1,0 +1,7 @@
+*.T02 filter=lfs diff=lfs merge=lfs -text
+*.10o filter=lfs diff=lfs merge=lfs -text
+*.11o filter=lfs diff=lfs merge=lfs -text
+*.12o filter=lfs diff=lfs merge=lfs -text
+*.13o filter=lfs diff=lfs merge=lfs -text
+*.14o filter=lfs diff=lfs merge=lfs -text
+*.15o filter=lfs diff=lfs merge=lfs -text
