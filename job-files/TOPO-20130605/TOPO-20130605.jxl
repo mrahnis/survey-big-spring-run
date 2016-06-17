@@ -1,0 +1,2989 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<JOBFile jobName="TOPO20130605" version="5.3" product="Trimble Survey Controller" productVersion="12.45" productDBVersion="1245-4" TimeStamp="2013-07-19T11:13:39"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.trimble.com/schema/JobXML/5_3 http://www.trimble.com/schema/JobXML/5_3/JobXMLSchema-5.3.xsd">
+    <FieldBook>
+
+        <UnitsRecord ID="00000002" TimeStamp="2013-07-19T11:13:39">
+            <DistanceUnits>USSurveyFeet</DistanceUnits>
+            <HeightUnits>USSurveyFeet</HeightUnits>
+            <AngleUnits>DMSDegrees</AngleUnits>
+            <AzimuthFormat>Azimuth</AzimuthFormat>
+            <LatitudeLongitudeUnits>DMSDegrees</LatitudeLongitudeUnits>
+            <CoordinateOrder>North-East-Elevation</CoordinateOrder>
+            <TemperatureUnits>Fahrenheit</TemperatureUnits>
+            <PressureUnits>InchHg</PressureUnits>
+            <GradeUnits>Percentage</GradeUnits>
+            <AreaUnits>SquareUSSurveyFeet</AreaUnits>
+            <StationingFormat>10+00.0</StationingFormat>
+        </UnitsRecord>
+
+        <CorrectionsRecord ID="00000003" TimeStamp="2013-07-19T11:13:39">
+            <SouthAzimuth>false</SouthAzimuth>
+            <GridOrientation>IncreasingNorthEast</GridOrientation>
+            <MagneticDeclination>0</MagneticDeclination>
+            <Distances>GroundDistance</Distances>
+            <ApplySeaLevelCorrection>true</ApplySeaLevelCorrection>
+            <NeighbourhoodAdjustment>
+                <Applied>false</Applied>
+                <WeightExponent>0.5</WeightExponent>
+            </NeighbourhoodAdjustment>
+        </CorrectionsRecord>
+
+        <EllipsoidRecord ID="00000004" TimeStamp="2013-07-19T11:13:39">
+            <EarthRadius>6378137</EarthRadius>
+            <Flattening>0.00335281068751</Flattening>
+        </EllipsoidRecord>
+
+        <ProjectionRecord ID="00000005" TimeStamp="2013-07-19T11:13:39">
+            <Projection>
+                <Type>Lambert2Parallel</Type>
+                <ShiftGridFileName/>
+                <CentralLatitude>39.333333333333</CentralLatitude>
+                <CentralLongitude>-77.75</CentralLongitude>
+                <FalseNorthing>0</FalseNorthing>
+                <FalseEasting>600000</FalseEasting>
+                <Parallel1>40.966666666667</Parallel1>
+                <Parallel2>39.933333333333</Parallel2>
+            </Projection>
+            <LocalSite>
+                <Type>Grid</Type>
+                <ProjectLocationLatitude/>
+                <ProjectLocationLongitude/>
+                <ProjectLocationHeight>91.440182880366</ProjectLocationHeight>
+            </LocalSite>
+        </ProjectionRecord>
+
+        <DatumRecord ID="00000006" TimeStamp="2013-07-19T11:13:39">
+            <Type>ThreeParameter</Type>
+            <Direction>WGS84ToLocal</Direction>
+            <EarthRadius>6378137</EarthRadius>
+            <Flattening>0.00335281067183</Flattening>
+            <TranslationX>0</TranslationX>
+            <TranslationY>0</TranslationY>
+            <TranslationZ>0</TranslationZ>
+        </DatumRecord>
+
+        <HorizontalAdjustmentRecord ID="00000007" TimeStamp="2013-07-19T11:13:39">
+            <Type>NoAdjustment</Type>
+        </HorizontalAdjustmentRecord>
+
+        <VerticalAdjustmentRecord ID="00000008" TimeStamp="2013-07-19T11:13:39">
+            <Type>GeoidModel</Type>
+            <GeoidName>GEOID03 (Conus)</GeoidName>
+        </VerticalAdjustmentRecord>
+
+        <CoordinateSystemRecord ID="00000009" TimeStamp="2013-07-19T11:13:39">
+            <SystemName>US State Plane 1983</SystemName>
+            <ZoneName>Pennsylvania South 3702</ZoneName>
+            <DatumName>NAD 1983 (Conus)</DatumName>
+        </CoordinateSystemRecord>
+
+        <PointRecord ID="0000000d" TimeStamp="2013-07-19T11:13:39">
+            <Name>BASE</Name>
+            <Code>Base</Code>
+            <Method>Coordinates</Method>
+            <SurveyMethod>KeyedIn</SurveyMethod>
+            <Classification>Normal</Classification>
+            <Deleted>false</Deleted>
+
+            <Grid>
+                <North>74285.35504191</North>
+                <East>727147.77546355</East>
+                <Elevation>103.28199136398</Elevation>
+            </Grid>
+        </PointRecord>
+
+        <PointRecord ID="00000010" TimeStamp="2013-07-19T11:13:40">
+            <Name>4476</Name>
+            <Code>XS JST GND</Code>
+            <Method>Coordinates</Method>
+            <SurveyMethod>KeyedIn</SurveyMethod>
+            <Classification>Normal</Classification>
+            <Deleted>false</Deleted>
+
+            <Grid>
+                <North>74167.203048006</North>
+                <East>727146.39136398</East>
+                <Elevation>99.189128778258</Elevation>
+            </Grid>
+        </PointRecord>
+
+        <PointRecord ID="00000013" TimeStamp="2013-07-19T11:13:40">
+            <Name>4477</Name>
+            <Code>XS J JEND</Code>
+            <Method>Coordinates</Method>
+            <SurveyMethod>KeyedIn</SurveyMethod>
+            <Classification>Normal</Classification>
+            <Deleted>false</Deleted>
+
+            <Grid>
+                <North>74180.09489459</North>
+                <East>727146.46695453</East>
+                <Elevation>98.871221742443</Elevation>
+            </Grid>
+        </PointRecord>
+
+        <PointRecord ID="00000016" TimeStamp="2013-07-19T11:13:40">
+            <Name>4478</Name>
+            <Code>GND</Code>
+            <Method>Coordinates</Method>
+            <SurveyMethod>KeyedIn</SurveyMethod>
+            <Classification>Normal</Classification>
+            <Deleted>false</Deleted>
+
+            <Grid>
+                <North>74180.09489459</North>
+                <East>727146.46695453</East>
+                <Elevation>98.871221742443</Elevation>
+            </Grid>
+        </PointRecord>
+
+        <PointRecord ID="00000019" TimeStamp="2013-07-19T11:13:40">
+            <Name>13551</Name>
+            <Code>GND</Code>
+            <Method>Coordinates</Method>
+            <SurveyMethod>Fix</SurveyMethod>
+            <Classification>Normal</Classification>
+            <Deleted>false</Deleted>
+
+            <WGS84>
+                <Latitude>39.991645680637</Latitude>
+                <Longitude>-76.261157808067</Longitude>
+                <Height>64.709830473757</Height>
+            </WGS84>
+
+            <ComputedGrid>
+                <North>74167.310721754</North>
+                <East>727146.35220684</East>
+                <Elevation>98.560957605526</Elevation>
+            </ComputedGrid>
+        </PointRecord>
+
+        <PointRecord ID="0000001c" TimeStamp="2013-07-19T11:13:40">
+            <Name>13552</Name>
+            <Code>GND</Code>
+            <Method>Coordinates</Method>
+            <SurveyMethod>Fix</SurveyMethod>
+            <Classification>Normal</Classification>
+            <Deleted>false</Deleted>
+
+            <WGS84>
+                <Latitude>39.991651316745</Latitude>
+                <Longitude>-76.261156975404</Longitude>
+                <Height>64.723871860302</Height>
+            </WGS84>
+
+            <ComputedGrid>
+                <North>74167.937628539</North>
+                <East>727146.41275926</East>
+                <Elevation>98.57502750174</Elevation>
+            </ComputedGrid>
+        </PointRecord>
+
+        <PointRecord ID="0000001f" TimeStamp="2013-07-19T11:13:40">
+            <Name>13553</Name>
+            <Code>GND</Code>
+            <Method>Coordinates</Method>
+            <SurveyMethod>Fix</SurveyMethod>
+            <Classification>Normal</Classification>
+            <Deleted>false</Deleted>
+
+            <WGS84>
+                <Latitude>39.991655901499</Latitude>
+                <Longitude>-76.261157190369</Longitude>
+                <Height>64.750585118888</Height>
+            </WGS84>
+
+            <ComputedGrid>
+                <North>74168.44630806</North>
+                <East>727146.38582123</East>
+                <Elevation>98.601764043035</Elevation>
+            </ComputedGrid>
+        </PointRecord>
+
+        <PointRecord ID="00000022" TimeStamp="2013-07-19T11:13:40">
+            <Name>13554</Name>
+            <Code>GND</Code>
+            <Method>Coordinates</Method>
+            <SurveyMethod>Fix</SurveyMethod>
+            <Classification>Normal</Classification>
+            <Deleted>false</Deleted>
+
+            <WGS84>
+                <Latitude>39.99165958162</Latitude>
+                <Longitude>-76.261157002528</Longitude>
+                <Height>64.743982370591</Height>
+            </WGS84>
+
+            <ComputedGrid>
+                <North>74168.855137213</North>
+                <East>727146.39497268</East>
+                <Elevation>98.595179946581</Elevation>
+            </ComputedGrid>
+        </PointRecord>
+
+        <PointRecord ID="00000025" TimeStamp="2013-07-19T11:13:40">
+            <Name>13555</Name>
+            <Code>GND</Code>
+            <Method>Coordinates</Method>
+            <SurveyMethod>Fix</SurveyMethod>
+            <Classification>Normal</Classification>
+            <Deleted>false</Deleted>
+
+            <WGS84>
+                <Latitude>39.991662707564</Latitude>
+                <Longitude>-76.261156583082</Longitude>
+                <Height>64.735589871763</Height>
+            </WGS84>
+
+            <ComputedGrid>
+                <North>74169.20277634</North>
+                <East>727146.42493852</East>
+                <Elevation>98.586803264265</Elevation>
+            </ComputedGrid>
+        </PointRecord>
+
+        <PointRecord ID="00000028" TimeStamp="2013-07-19T11:13:40">
+            <Name>13556</Name>
+            <Code>GND</Code>
+            <Method>Coordinates</Method>
+            <SurveyMethod>Fix</SurveyMethod>
+            <Classification>Normal</Classification>
+            <Deleted>false</Deleted>
+
+            <WGS84>
+                <Latitude>39.991666235248</Latitude>
+                <Longitude>-76.261156346271</Longitude>
+                <Height>64.70747100713</Height>
+            </WGS84>
+
+            <ComputedGrid>
+                <North>74169.594752786</North>
+                <East>727146.43855691</East>
+                <Elevation>98.558702273031</Elevation>
+            </ComputedGrid>
+        </PointRecord>
+
+        <PointRecord ID="0000002b" TimeStamp="2013-07-19T11:13:40">
+            <Name>13557</Name>
+            <Code>GND</Code>
+            <Method>Coordinates</Method>
+            <SurveyMethod>Fix</SurveyMethod>
+            <Classification>Normal</Classification>
+            <Deleted>false</Deleted>
+
+            <WGS84>
+                <Latitude>39.991669278266</Latitude>
+                <Longitude>-76.26115574391</Longitude>
+                <Height>64.709113019167</Height>
+            </WGS84>
+
+            <ComputedGrid>
+                <North>74169.933449011</North>
+                <East>727146.48429733</East>
+                <Elevation>98.560641494468</Elevation>
+            </ComputedGrid>
+        </PointRecord>
+
+        <PointRecord ID="0000002e" TimeStamp="2013-07-19T11:13:40">
+            <Name>13558</Name>
+            <Code>GND</Code>
+            <Method>Coordinates</Method>
+            <SurveyMethod>Fix</SurveyMethod>
+            <Classification>Normal</Classification>
+            <Deleted>false</Deleted>
+
+            <WGS84>
+                <Latitude>39.991672301458</Latitude>
+                <Longitude>-76.261156875809</Longitude>
+                <Height>64.686489877871</Height>
+            </WGS84>
+
+            <ComputedGrid>
+                <North>74170.267447293</North>
+                <East>727146.38198403</East>
+                <Elevation>98.538033815654</Elevation>
+            </ComputedGrid>
+        </PointRecord>
+
+        <PointRecord ID="00000031" TimeStamp="2013-07-19T11:13:40">
+            <Name>13559</Name>
+            <Code>GND</Code>
+            <Method>Coordinates</Method>
+            <SurveyMethod>Fix</SurveyMethod>
+            <Classification>Normal</Classification>
+            <Deleted>false</Deleted>
+
+            <WGS84>
+                <Latitude>39.991677729031</Latitude>
+                <Longitude>-76.261157134793</Longitude>
+                <Height>64.702790694891</Height>
+            </WGS84>
+
+            <ComputedGrid>
+                <North>74170.869631294</North>
+                <East>727146.34970955</East>
+                <Elevation>98.554362197447</Elevation>
+            </ComputedGrid>
+        </PointRecord>
+
+        <PointRecord ID="00000034" TimeStamp="2013-07-19T11:13:40">
+            <Name>13560</Name>
+            <Code>GND</Code>
+            <Method>Coordinates</Method>
+            <SurveyMethod>Fix</SurveyMethod>
+            <Classification>Normal</Classification>
+            <Deleted>false</Deleted>
+
+            <WGS84>
+                <Latitude>39.991681636905</Latitude>
+                <Longitude>-76.261156724817</Longitude>
+                <Height>64.611486835054</Height>
+            </WGS84>
+
+            <ComputedGrid>
+                <North>74171.304064888</North>
+                <East>727146.37740309</East>
+                <Elevation>98.463078118559</Elevation>
+            </ComputedGrid>
+        </PointRecord>
+
+        <PointRecord ID="00000037" TimeStamp="2013-07-19T11:13:40">
+            <Name>13561</Name>
+            <Code>GND</Code>
+            <Method>Coordinates</Method>
+            <SurveyMethod>Fix</SurveyMethod>
+            <Classification>Normal</Classification>
+            <Deleted>false</Deleted>
+
+            <WGS84>
+                <Latitude>39.991685975644</Latitude>
+                <Longitude>-76.261156074026</Longitude>
+                <Height>64.611323468967</Height>
+            </WGS84>
+
+            <ComputedGrid>
+                <North>74171.786678852</North>
+                <East>727146.42485363</East>
+                <Elevation>98.462936692661</Elevation>
+            </ComputedGrid>
+        </PointRecord>
+
+        <PointRecord ID="0000003a" TimeStamp="2013-07-19T11:13:40">
+            <Name>13562</Name>
+            <Code>GND</Code>
+            <Method>Coordinates</Method>
+            <SurveyMethod>Fix</SurveyMethod>
+            <Classification>Normal</Classification>
+            <Deleted>false</Deleted>
+
+            <WGS84>
+                <Latitude>39.991689180464</Latitude>
+                <Longitude>-76.261156931384</Longitude>
+                <Height>64.423972163929</Height>
+            </WGS84>
+
+            <ComputedGrid>
+                <North>74172.141236336</North>
+                <East>727146.3456438</East>
+                <Elevation>98.275601740993</Elevation>
+            </ComputedGrid>
+        </PointRecord>
+
+        <PointRecord ID="0000003d" TimeStamp="2013-07-19T11:13:40">
+            <Name>13563</Name>
+            <Code>GND</Code>
+            <Method>Coordinates</Method>
+            <SurveyMethod>Fix</SurveyMethod>
+            <Classification>Normal</Classification>
+            <Deleted>false</Deleted>
+
+            <WGS84>
+                <Latitude>39.991691527502</Latitude>
+                <Longitude>-76.261156465845</Longitude>
+                <Height>64.249824511467</Height>
+            </WGS84>
+
+            <ComputedGrid>
+                <North>74172.402469446</North>
+                <East>727146.38100355</East>
+                <Elevation>98.101465944416</Elevation>
+            </ComputedGrid>
+        </PointRecord>
+
+        <PointRecord ID="00000040" TimeStamp="2013-07-19T11:13:40">
+            <Name>13564</Name>
+            <Code>BKT</Code>
+            <Method>Coordinates</Method>
+            <SurveyMethod>Fix</SurveyMethod>
+            <Classification>Normal</Classification>
+            <Deleted>false</Deleted>
+
+            <WGS84>
+                <Latitude>39.991693253077</Latitude>
+                <Longitude>-76.261155835594</Longitude>
+                <Height>64.172398367545</Height>
+            </WGS84>
+
+            <ComputedGrid>
+                <North>74172.594946286</North>
+                <East>727146.43159154</East>
+                <Elevation>98.024048485348</Elevation>
+            </ComputedGrid>
+        </PointRecord>
+
+        <PointRecord ID="00000043" TimeStamp="2013-07-19T11:13:40">
+            <Name>13565</Name>
+            <Code>WSE</Code>
+            <Method>Coordinates</Method>
+            <SurveyMethod>Fix</SurveyMethod>
+            <Classification>Normal</Classification>
+            <Deleted>false</Deleted>
+
+            <WGS84>
+                <Latitude>39.991696983136</Latitude>
+                <Longitude>-76.261156030656</Longitude>
+                <Height>63.828439842558</Height>
+            </WGS84>
+
+            <ComputedGrid>
+                <North>74173.008768155</North>
+                <East>727146.4079529</East>
+                <Elevation>97.680108905245</Elevation>
+            </ComputedGrid>
+        </PointRecord>
+
+        <PointRecord ID="00000046" TimeStamp="2013-07-19T11:13:40">
+            <Name>13566</Name>
+            <Code>CHAN</Code>
+            <Method>Coordinates</Method>
+            <SurveyMethod>Fix</SurveyMethod>
+            <Classification>Normal</Classification>
+            <Deleted>false</Deleted>
+
+            <WGS84>
+                <Latitude>39.991696958256</Latitude>
+                <Longitude>-76.261155953335</Longitude>
+                <Height>63.705883396438</Height>
+            </WGS84>
+
+            <ComputedGrid>
+                <North>74173.006117358</North>
+                <East>727146.41460201</East>
+                <Elevation>97.557552324387</Elevation>
+            </ComputedGrid>
+        </PointRecord>
+
+        <PointRecord ID="00000049" TimeStamp="2013-07-19T11:13:40">
+            <Name>13567</Name>
+            <Code>CHAN</Code>
+            <Method>Coordinates</Method>
+            <SurveyMethod>Fix</SurveyMethod>
+            <Classification>Normal</Classification>
+            <Deleted>false</Deleted>
+
+            <WGS84>
+                <Latitude>39.991698839665</Latitude>
+                <Longitude>-76.261156653425</Longitude>
+                <Height>63.739093215784</Height>
+            </WGS84>
+
+            <ComputedGrid>
+                <North>74173.213979171</North>
+                <East>727146.35129872</East>
+                <Elevation>97.59077176561</Elevation>
+            </ComputedGrid>
+        </PointRecord>
+
+        <PointRecord ID="0000004c" TimeStamp="2013-07-19T11:13:40">
+            <Name>13568</Name>
+            <Code>CHAN</Code>
+            <Method>Coordinates</Method>
+            <SurveyMethod>Fix</SurveyMethod>
+            <Classification>Normal</Classification>
+            <Deleted>false</Deleted>
+
+            <WGS84>
+                <Latitude>39.99170090989</Latitude>
+                <Longitude>-76.261155660687</Longitude>
+                <Height>63.744881807475</Height>
+            </WGS84>
+
+            <ComputedGrid>
+                <North>74173.445240164</North>
+                <East>727146.43219483</East>
+                <Elevation>97.596570750541</Elevation>
+            </ComputedGrid>
+        </PointRecord>
+
+        <PointRecord ID="0000004f" TimeStamp="2013-07-19T11:13:40">
+            <Name>13569</Name>
+            <Code>CHAN</Code>
+            <Method>Coordinates</Method>
+            <SurveyMethod>Fix</SurveyMethod>
+            <Classification>Normal</Classification>
+            <Deleted>false</Deleted>
+
+            <WGS84>
+                <Latitude>39.991702355213</Latitude>
+                <Longitude>-76.261156072181</Longitude>
+                <Height>63.725102895519</Height>
+            </WGS84>
+
+            <ComputedGrid>
+                <North>74173.605104204</North>
+                <East>727146.39435141</East>
+                <Elevation>97.576799216278</Elevation>
+            </ComputedGrid>
+        </PointRecord>
+
+        <PointRecord ID="00000052" TimeStamp="2013-07-19T11:13:40">
+            <Name>13570</Name>
+            <Code>CHAN</Code>
+            <Method>Coordinates</Method>
+            <SurveyMethod>Fix</SurveyMethod>
+            <Classification>Normal</Classification>
+            <Deleted>false</Deleted>
+
+            <WGS84>
+                <Latitude>39.991703798487</Latitude>
+                <Longitude>-76.261156090988</Longitude>
+                <Height>63.745283685273</Height>
+            </WGS84>
+
+            <ComputedGrid>
+                <North>74173.76530614</North>
+                <East>727146.39004389</East>
+                <Elevation>97.596987330044</Elevation>
+            </ComputedGrid>
+        </PointRecord>
+
+        <PointRecord ID="00000055" TimeStamp="2013-07-19T11:13:40">
+            <Name>13571</Name>
+            <Code>CHAN</Code>
+            <Method>Coordinates</Method>
+            <SurveyMethod>Fix</SurveyMethod>
+            <Classification>Normal</Classification>
+            <Deleted>false</Deleted>
+
+            <WGS84>
+                <Latitude>39.991705368066</Latitude>
+                <Longitude>-76.261156469781</Longitude>
+                <Height>63.755203030652</Height>
+            </WGS84>
+
+            <ComputedGrid>
+                <North>74173.939011883</North>
+                <East>727146.35476028</East>
+                <Elevation>97.606914679852</Elevation>
+            </ComputedGrid>
+        </PointRecord>
+
+        <PointRecord ID="00000058" TimeStamp="2013-07-19T11:13:40">
+            <Name>13572</Name>
+            <Code>BKT</Code>
+            <Method>Coordinates</Method>
+            <SurveyMethod>Fix</SurveyMethod>
+            <Classification>Normal</Classification>
+            <Deleted>false</Deleted>
+
+            <WGS84>
+                <Latitude>39.991707748011</Latitude>
+                <Longitude>-76.261155899909</Longitude>
+                <Height>63.789836919515</Height>
+            </WGS84>
+
+            <ComputedGrid>
+                <North>74174.204048466</North>
+                <East>727146.39896754</East>
+                <Elevation>97.641560579641</Elevation>
+            </ComputedGrid>
+        </PointRecord>
+
+        <PointRecord ID="0000005b" TimeStamp="2013-07-19T11:13:40">
+            <Name>13573</Name>
+            <Code>BKE</Code>
+            <Method>Coordinates</Method>
+            <SurveyMethod>Fix</SurveyMethod>
+            <Classification>Normal</Classification>
+            <Deleted>false</Deleted>
+
+            <WGS84>
+                <Latitude>39.991710228609</Latitude>
+                <Longitude>-76.261156224675</Longitude>
+                <Height>63.986110001451</Height>
+            </WGS84>
+
+            <ComputedGrid>
+                <North>74174.478971261</North>
+                <East>727146.36659209</East>
+                <Elevation>97.83784628168</Elevation>
+            </ComputedGrid>
+        </PointRecord>
+
+        <PointRecord ID="0000005e" TimeStamp="2013-07-19T11:13:40">
+            <Name>13574</Name>
+            <Code>GND</Code>
+            <Method>Coordinates</Method>
+            <SurveyMethod>Fix</SurveyMethod>
+            <Classification>Normal</Classification>
+            <Deleted>false</Deleted>
+
+            <WGS84>
+                <Latitude>39.991713809988</Latitude>
+                <Longitude>-76.261154599018</Longitude>
+                <Height>64.08434044162</Height>
+            </WGS84>
+
+            <ComputedGrid>
+                <North>74174.878908401</North>
+                <East>727146.49870533</East>
+                <Elevation>97.936094711166</Elevation>
+            </ComputedGrid>
+        </PointRecord>
+
+        <PointRecord ID="00000061" TimeStamp="2013-07-19T11:13:40">
+            <Name>13575</Name>
+            <Code>GND</Code>
+            <Method>Coordinates</Method>
+            <SurveyMethod>Fix</SurveyMethod>
+            <Classification>Normal</Classification>
+            <Deleted>false</Deleted>
+
+            <WGS84>
+                <Latitude>39.991717214599</Latitude>
+                <Longitude>-76.261153919357</Longitude>
+                <Height>64.141736178307</Height>
+            </WGS84>
+
+            <ComputedGrid>
+                <North>74175.257859155</North>
+                <East>727146.55036961</East>
+                <Elevation>97.993507644565</Elevation>
+            </ComputedGrid>
+        </PointRecord>
+
+        <PointRecord ID="00000064" TimeStamp="2013-07-19T11:13:40">
+            <Name>13576</Name>
+            <Code>GND</Code>
+            <Method>Coordinates</Method>
+            <SurveyMethod>Fix</SurveyMethod>
+            <Classification>Normal</Classification>
+            <Deleted>false</Deleted>
+
+            <WGS84>
+                <Latitude>39.991720608337</Latitude>
+                <Longitude>-76.261154633389</Longitude>
+                <Height>64.200362480825</Height>
+            </WGS84>
+
+            <ComputedGrid>
+                <North>74175.63359624</North>
+                <East>727146.48304499</East>
+                <Elevation>98.052151242247</Elevation>
+            </ComputedGrid>
+        </PointRecord>
+
+        <PointRecord ID="00000067" TimeStamp="2013-07-19T11:13:40">
+            <Name>13577</Name>
+            <Code>GND</Code>
+            <Method>Coordinates</Method>
+            <SurveyMethod>Fix</SurveyMethod>
+            <Classification>Normal</Classification>
+            <Deleted>false</Deleted>
+
+            <WGS84>
+                <Latitude>39.991723947063</Latitude>
+                <Longitude>-76.261154967186</Longitude>
+                <Height>64.206573175846</Height>
+            </WGS84>
+
+            <ComputedGrid>
+                <North>74176.003773462</North>
+                <East>727146.4482921</East>
+                <Elevation>98.058378911331</Elevation>
+            </ComputedGrid>
+        </PointRecord>
+
+        <PointRecord ID="0000006a" TimeStamp="2013-07-19T11:13:40">
+            <Name>13578</Name>
+            <Code>GND</Code>
+            <Method>Coordinates</Method>
+            <SurveyMethod>Fix</SurveyMethod>
+            <Classification>Normal</Classification>
+            <Deleted>false</Deleted>
+
+            <WGS84>
+                <Latitude>39.991726473871</Latitude>
+                <Longitude>-76.261155368995</Longitude>
+                <Height>64.173169704734</Height>
+            </WGS84>
+
+            <ComputedGrid>
+                <North>74176.283715465</North>
+                <East>727146.40925135</East>
+                <Elevation>98.0249883029</Elevation>
+            </ComputedGrid>
+        </PointRecord>
+
+        <PointRecord ID="0000006d" TimeStamp="2013-07-19T11:13:40">
+            <Name>13579</Name>
+            <Code>GND</Code>
+            <Method>Coordinates</Method>
+            <SurveyMethod>Fix</SurveyMethod>
+            <Classification>Normal</Classification>
+            <Deleted>false</Deleted>
+
+            <WGS84>
+                <Latitude>39.991729958767</Latitude>
+                <Longitude>-76.261154471473</Longitude>
+                <Height>64.225406545794</Height>
+            </WGS84>
+
+            <ComputedGrid>
+                <North>74176.671892945</North>
+                <East>727146.47936877</East>
+                <Elevation>98.077242723477</Elevation>
+            </ComputedGrid>
+        </PointRecord>
+
+        <PointRecord ID="00000070" TimeStamp="2013-07-19T11:13:40">
+            <Name>13580</Name>
+            <Code>GND</Code>
+            <Method>Coordinates</Method>
+            <SurveyMethod>Fix</SurveyMethod>
+            <Classification>Normal</Classification>
+            <Deleted>false</Deleted>
+
+            <WGS84>
+                <Latitude>39.991733391218</Latitude>
+                <Longitude>-76.261154713432</Longitude>
+                <Height>64.356556616372</Height>
+            </WGS84>
+
+            <ComputedGrid>
+                <North>74177.052607527</North>
+                <East>727146.45228261</East>
+                <Elevation>98.208410233168</Elevation>
+            </ComputedGrid>
+        </PointRecord>
+
+        <PointRecord ID="00000073" TimeStamp="2013-07-19T11:13:40">
+            <Name>13581</Name>
+            <Code>GND</Code>
+            <Method>Coordinates</Method>
+            <SurveyMethod>Fix</SurveyMethod>
+            <Classification>Normal</Classification>
+            <Deleted>false</Deleted>
+
+            <WGS84>
+                <Latitude>39.991737732089</Latitude>
+                <Longitude>-76.261153625831</Longitude>
+                <Height>64.288469767778</Height>
+            </WGS84>
+
+            <ComputedGrid>
+                <North>74177.536087085</North>
+                <East>727146.53702887</East>
+                <Elevation>98.140345285037</Elevation>
+            </ComputedGrid>
+        </PointRecord>
+
+        <PointRecord ID="00000076" TimeStamp="2013-07-19T11:13:40">
+            <Name>13582</Name>
+            <Code>GND</Code>
+            <Method>Coordinates</Method>
+            <SurveyMethod>Fix</SurveyMethod>
+            <Classification>Normal</Classification>
+            <Deleted>false</Deleted>
+
+            <WGS84>
+                <Latitude>39.991740989112</Latitude>
+                <Longitude>-76.261154106654</Longitude>
+                <Height>64.301731043144</Height>
+            </WGS84>
+
+            <ComputedGrid>
+                <North>74177.896982142</North>
+                <East>727146.48987418</East>
+                <Elevation>98.153623135741</Elevation>
+            </ComputedGrid>
+        </PointRecord>
+
+        <PointRecord ID="00000079" TimeStamp="2013-07-19T11:13:40">
+            <Name>13583</Name>
+            <Code>GND</Code>
+            <Method>Coordinates</Method>
+            <SurveyMethod>Fix</SurveyMethod>
+            <Classification>Normal</Classification>
+            <Deleted>false</Deleted>
+
+            <WGS84>
+                <Latitude>39.991745252344</Latitude>
+                <Longitude>-76.261155239506</Longitude>
+                <Height>64.2018151317</Height>
+            </WGS84>
+
+            <ComputedGrid>
+                <North>74178.368645488</North>
+                <East>727146.38515846</East>
+                <Elevation>98.053728975841</Elevation>
+            </ComputedGrid>
+        </PointRecord>
+
+        <PointRecord ID="0000007c" TimeStamp="2013-07-19T11:13:40">
+            <Name>13584</Name>
+            <Code>GND</Code>
+            <Method>Coordinates</Method>
+            <SurveyMethod>Fix</SurveyMethod>
+            <Classification>Normal</Classification>
+            <Deleted>false</Deleted>
+
+            <WGS84>
+                <Latitude>39.991749216684</Latitude>
+                <Longitude>-76.261154232014</Longitude>
+                <Height>64.312285943536</Height>
+            </WGS84>
+
+            <ComputedGrid>
+                <North>74178.810208084</North>
+                <East>727146.4637689</East>
+                <Elevation>98.164219786426</Elevation>
+            </ComputedGrid>
+        </PointRecord>
+
+        <PointRecord ID="0000007f" TimeStamp="2013-07-19T11:13:40">
+            <Name>13585</Name>
+            <Code>GND</Code>
+            <Method>Coordinates</Method>
+            <SurveyMethod>Fix</SurveyMethod>
+            <Classification>Normal</Classification>
+            <Deleted>false</Deleted>
+
+            <WGS84>
+                <Latitude>39.991753523596</Latitude>
+                <Longitude>-76.261153540221</Longitude>
+                <Height>64.325260243027</Height>
+            </WGS84>
+
+            <ComputedGrid>
+                <North>74179.289347723</North>
+                <East>727146.51478016</East>
+                <Elevation>98.177215857118</Elevation>
+            </ComputedGrid>
+        </PointRecord>
+
+        <PointRecord ID="00000082" TimeStamp="2013-07-19T11:13:40">
+            <Name>13586</Name>
+            <Code>GND</Code>
+            <Method>Coordinates</Method>
+            <SurveyMethod>Fix</SurveyMethod>
+            <Classification>Normal</Classification>
+            <Deleted>false</Deleted>
+
+            <WGS84>
+                <Latitude>39.991757437111</Latitude>
+                <Longitude>-76.2611530413</Longitude>
+                <Height>64.474019224404</Height>
+            </WGS84>
+
+            <ComputedGrid>
+                <North>74179.724535628</North>
+                <East>727146.5500582</East>
+                <Elevation>98.325994635253</Elevation>
+            </ComputedGrid>
+        </PointRecord>
+
+        <PointRecord ID="00000085" TimeStamp="2013-07-19T11:13:40">
+            <Name>13587</Name>
+            <Code>GND</Code>
+            <Method>Coordinates</Method>
+            <SurveyMethod>Fix</SurveyMethod>
+            <Classification>Normal</Classification>
+            <Deleted>false</Deleted>
+
+            <WGS84>
+                <Latitude>39.991761147068</Latitude>
+                <Longitude>-76.26115381584</Longitude>
+                <Height>64.485084119833</Height>
+            </WGS84>
+
+            <ComputedGrid>
+                <North>74180.135291517</North>
+                <East>727146.47697484</East>
+                <Elevation>98.337078435521</Elevation>
+            </ComputedGrid>
+        </PointRecord>
+
+        <PointRecord ID="00000088" TimeStamp="2013-07-19T11:13:40">
+            <Name>4471</Name>
+            <Code>XS JEND GND</Code>
+            <Method>Coordinates</Method>
+            <SurveyMethod>KeyedIn</SurveyMethod>
+            <Classification>Normal</Classification>
+            <Deleted>false</Deleted>
+
+            <Grid>
+                <North>74181.64511049</North>
+                <East>727141.76845314</East>
+                <Elevation>98.694132588265</Elevation>
+            </Grid>
+        </PointRecord>
+
+        <PointRecord ID="0000008b" TimeStamp="2013-07-19T11:13:40">
+            <Name>4430</Name>
+            <Code>XS JST GND</Code>
+            <Method>Coordinates</Method>
+            <SurveyMethod>KeyedIn</SurveyMethod>
+            <Classification>Normal</Classification>
+            <Deleted>false</Deleted>
+
+            <Grid>
+                <North>74182.811277623</North>
+                <East>727133.25354331</East>
+                <Elevation>98.746863093726</Elevation>
+            </Grid>
+        </PointRecord>
+
+        <PointRecord ID="0000008e" TimeStamp="2013-07-19T11:13:40">
+            <Name>13588</Name>
+            <Code>GND</Code>
+            <Method>Coordinates</Method>
+            <SurveyMethod>Fix</SurveyMethod>
+            <Classification>Normal</Classification>
+            <Deleted>false</Deleted>
+
+            <WGS84>
+                <Latitude>39.991775794786</Latitude>
+                <Longitude>-76.261208263604</Longitude>
+                <Height>64.418531608416</Height>
+            </WGS84>
+
+            <ComputedGrid>
+                <North>74181.683058158</North>
+                <East>727141.80019534</East>
+                <Elevation>98.270606243954</Elevation>
+            </ComputedGrid>
+        </PointRecord>
+
+        <PointRecord ID="00000091" TimeStamp="2013-07-19T11:13:40">
+            <Name>13589</Name>
+            <Code>GND</Code>
+            <Method>Coordinates</Method>
+            <SurveyMethod>Fix</SurveyMethod>
+            <Classification>Normal</Classification>
+            <Deleted>false</Deleted>
+
+            <WGS84>
+                <Latitude>39.991774947874</Latitude>
+                <Longitude>-76.261211946084</Longitude>
+                <Height>64.297278252079</Height>
+            </WGS84>
+
+            <ComputedGrid>
+                <North>74181.583734243</North>
+                <East>727141.48732907</East>
+                <Elevation>98.149348997946</Elevation>
+            </ComputedGrid>
+        </PointRecord>
+
+        <PointRecord ID="00000094" TimeStamp="2013-07-19T11:13:40">
+            <Name>13590</Name>
+            <Code>GND</Code>
+            <Method>Coordinates</Method>
+            <SurveyMethod>Fix</SurveyMethod>
+            <Classification>Normal</Classification>
+            <Deleted>false</Deleted>
+
+            <WGS84>
+                <Latitude>39.991774645119</Latitude>
+                <Longitude>-76.261215916337</Longitude>
+                <Height>64.235133588894</Height>
+            </WGS84>
+
+            <ComputedGrid>
+                <North>74181.544407115</North>
+                <East>727141.14887097</East>
+                <Elevation>98.087203237188</Elevation>
+            </ComputedGrid>
+        </PointRecord>
+
+        <PointRecord ID="00000097" TimeStamp="2013-07-19T11:13:40">
+            <Name>13591</Name>
+            <Code>GND</Code>
+            <Method>Coordinates</Method>
+            <SurveyMethod>Fix</SurveyMethod>
+            <Classification>Normal</Classification>
+            <Deleted>false</Deleted>
+
+            <WGS84>
+                <Latitude>39.991774620361</Latitude>
+                <Longitude>-76.261220980363</Longitude>
+                <Height>64.254121360949</Height>
+            </WGS84>
+
+            <ComputedGrid>
+                <North>74181.534367912</North>
+                <East>727140.7164939</East>
+                <Elevation>98.106191442537</Elevation>
+            </ComputedGrid>
+        </PointRecord>
+
+        <PointRecord ID="0000009a" TimeStamp="2013-07-19T11:13:40">
+            <Name>13592</Name>
+            <Code>GND</Code>
+            <Method>Coordinates</Method>
+            <SurveyMethod>Fix</SurveyMethod>
+            <Classification>Normal</Classification>
+            <Deleted>false</Deleted>
+
+            <WGS84>
+                <Latitude>39.991774318526</Latitude>
+                <Longitude>-76.261226755711</Longitude>
+                <Height>64.21260876639</Height>
+            </WGS84>
+
+            <ComputedGrid>
+                <North>74181.492544189</North>
+                <East>727140.22389479</East>
+                <Elevation>98.064677954036</Elevation>
+            </ComputedGrid>
+        </PointRecord>
+
+        <PointRecord ID="0000009d" TimeStamp="2013-07-19T11:13:40">
+            <Name>13593</Name>
+            <Code>GND</Code>
+            <Method>Coordinates</Method>
+            <SurveyMethod>Fix</SurveyMethod>
+            <Classification>Normal</Classification>
+            <Deleted>false</Deleted>
+
+            <WGS84>
+                <Latitude>39.991774459755</Latitude>
+                <Longitude>-76.261233582666</Longitude>
+                <Height>64.1541400986</Height>
+            </WGS84>
+
+            <ComputedGrid>
+                <North>74181.498394493</North>
+                <East>727139.64066836</East>
+                <Elevation>98.006210755777</Elevation>
+            </ComputedGrid>
+        </PointRecord>
+
+        <PointRecord ID="000000a0" TimeStamp="2013-07-19T11:13:40">
+            <Name>13594</Name>
+            <Code>GND</Code>
+            <Method>Coordinates</Method>
+            <SurveyMethod>Fix</SurveyMethod>
+            <Classification>Normal</Classification>
+            <Deleted>false</Deleted>
+
+            <WGS84>
+                <Latitude>39.991776025426</Latitude>
+                <Longitude>-76.261238931692</Longitude>
+                <Height>64.119716459534</Height>
+            </WGS84>
+
+            <ComputedGrid>
+                <North>74181.664510901</North>
+                <East>727139.18097794</East>
+                <Elevation>97.971795649288</Elevation>
+            </ComputedGrid>
+        </PointRecord>
+
+        <PointRecord ID="000000a3" TimeStamp="2013-07-19T11:13:40">
+            <Name>13595</Name>
+            <Code>GND</Code>
+            <Method>Coordinates</Method>
+            <SurveyMethod>Fix</SurveyMethod>
+            <Classification>Normal</Classification>
+            <Deleted>false</Deleted>
+
+            <WGS84>
+                <Latitude>39.991776212309</Latitude>
+                <Longitude>-76.261244183568</Longitude>
+                <Height>64.112683431825</Height>
+            </WGS84>
+
+            <ComputedGrid>
+                <North>74181.677697275</North>
+                <East>727138.732164</East>
+                <Elevation>97.964764148761</Elevation>
+            </ComputedGrid>
+        </PointRecord>
+
+        <PointRecord ID="000000a6" TimeStamp="2013-07-19T11:13:40">
+            <Name>13596</Name>
+            <Code>GND</Code>
+            <Method>Coordinates</Method>
+            <SurveyMethod>Fix</SurveyMethod>
+            <Classification>Normal</Classification>
+            <Deleted>false</Deleted>
+
+            <WGS84>
+                <Latitude>39.991776866129</Latitude>
+                <Longitude>-76.261246651719</Longitude>
+                <Height>64.114428781553</Height>
+            </WGS84>
+
+            <ComputedGrid>
+                <North>74181.746729584</North>
+                <East>727138.52018179</East>
+                <Elevation>97.96651308747</Elevation>
+            </ComputedGrid>
+        </PointRecord>
+
+        <PointRecord ID="000000a9" TimeStamp="2013-07-19T11:13:40">
+            <Name>13597</Name>
+            <Code>GND</Code>
+            <Method>Coordinates</Method>
+            <SurveyMethod>Fix</SurveyMethod>
+            <Classification>Normal</Classification>
+            <Deleted>false</Deleted>
+
+            <WGS84>
+                <Latitude>39.991778394838</Latitude>
+                <Longitude>-76.261253252261</Longitude>
+                <Height>64.031378851852</Height>
+            </WGS84>
+
+            <ComputedGrid>
+                <North>74181.906940869</North>
+                <East>727137.95369211</East>
+                <Elevation>97.883471640653</Elevation>
+            </ComputedGrid>
+        </PointRecord>
+
+        <PointRecord ID="000000ac" TimeStamp="2013-07-19T11:13:40">
+            <Name>13598</Name>
+            <Code>GND</Code>
+            <Method>Coordinates</Method>
+            <SurveyMethod>Fix</SurveyMethod>
+            <Classification>Normal</Classification>
+            <Deleted>false</Deleted>
+
+            <WGS84>
+                <Latitude>39.991780233423</Latitude>
+                <Longitude>-76.261257553797</Longitude>
+                <Height>63.980039651154</Height>
+            </WGS84>
+
+            <ComputedGrid>
+                <North>74182.104863694</North>
+                <East>727137.58293739</East>
+                <Elevation>97.832142241389</Elevation>
+            </ComputedGrid>
+        </PointRecord>
+
+        <PointRecord ID="000000af" TimeStamp="2013-07-19T11:13:40">
+            <Name>13599</Name>
+            <Code>GND</Code>
+            <Method>Coordinates</Method>
+            <SurveyMethod>Fix</SurveyMethod>
+            <Classification>Normal</Classification>
+            <Deleted>false</Deleted>
+
+            <WGS84>
+                <Latitude>39.991782464557</Latitude>
+                <Longitude>-76.261262721777</Longitude>
+                <Height>64.026012163258</Height>
+            </WGS84>
+
+            <ComputedGrid>
+                <North>74182.345119066</North>
+                <East>727137.13746125</East>
+                <Elevation>97.878126641846</Elevation>
+            </ComputedGrid>
+        </PointRecord>
+
+        <PointRecord ID="000000b2" TimeStamp="2013-07-19T11:13:40">
+            <Name>13600</Name>
+            <Code>GND</Code>
+            <Method>Coordinates</Method>
+            <SurveyMethod>Fix</SurveyMethod>
+            <Classification>Normal</Classification>
+            <Deleted>false</Deleted>
+
+            <WGS84>
+                <Latitude>39.991783789261</Latitude>
+                <Longitude>-76.261267706004</Longitude>
+                <Height>63.918069111763</Height>
+            </WGS84>
+
+            <ComputedGrid>
+                <North>74182.485009199</North>
+                <East>727136.70937259</East>
+                <Elevation>97.77019086001</Elevation>
+            </ComputedGrid>
+        </PointRecord>
+
+        <PointRecord ID="000000b5" TimeStamp="2013-07-19T11:13:40">
+            <Name>13601</Name>
+            <Code>GND</Code>
+            <Method>Coordinates</Method>
+            <SurveyMethod>Fix</SurveyMethod>
+            <Classification>Normal</Classification>
+            <Deleted>false</Deleted>
+
+            <WGS84>
+                <Latitude>39.99178442134</Latitude>
+                <Longitude>-76.261275766253</Longitude>
+                <Height>63.846556497386</Height>
+            </WGS84>
+
+            <ComputedGrid>
+                <North>74182.543577336</North>
+                <East>727136.01991505</East>
+                <Elevation>97.698682340359</Elevation>
+            </ComputedGrid>
+        </PointRecord>
+
+        <PointRecord ID="000000b8" TimeStamp="2013-07-19T11:13:40">
+            <Name>13602</Name>
+            <Code>BKE</Code>
+            <Method>Coordinates</Method>
+            <SurveyMethod>Fix</SurveyMethod>
+            <Classification>Normal</Classification>
+            <Deleted>false</Deleted>
+
+            <WGS84>
+                <Latitude>39.991785427024</Latitude>
+                <Longitude>-76.261279736727</Longitude>
+                <Height>63.773124311699</Height>
+            </WGS84>
+
+            <ComputedGrid>
+                <North>74182.649510078</North>
+                <East>727135.67898913</East>
+                <Elevation>97.625255694068</Elevation>
+            </ComputedGrid>
+        </PointRecord>
+
+        <PointRecord ID="000000bb" TimeStamp="2013-07-19T11:13:40">
+            <Name>13603</Name>
+            <Code>BKT</Code>
+            <Method>Coordinates</Method>
+            <SurveyMethod>Fix</SurveyMethod>
+            <Classification>Normal</Classification>
+            <Deleted>false</Deleted>
+
+            <WGS84>
+                <Latitude>39.99178643626</Latitude>
+                <Longitude>-76.261285426397</Longitude>
+                <Height>63.685672531484</Height>
+            </WGS84>
+
+            <ComputedGrid>
+                <North>74182.75336217</North>
+                <East>727135.19125232</East>
+                <Elevation>97.53780966059</Elevation>
+            </ComputedGrid>
+        </PointRecord>
+
+        <PointRecord ID="000000be" TimeStamp="2013-07-19T11:13:40">
+            <Name>13604</Name>
+            <Code>CHAN</Code>
+            <Method>Coordinates</Method>
+            <SurveyMethod>Fix</SurveyMethod>
+            <Classification>Normal</Classification>
+            <Deleted>false</Deleted>
+
+            <WGS84>
+                <Latitude>39.991786826566</Latitude>
+                <Longitude>-76.261287280757</Longitude>
+                <Height>63.604189904986</Height>
+            </WGS84>
+
+            <ComputedGrid>
+                <North>74182.794023479</North>
+                <East>727135.03217575</East>
+                <Elevation>97.456329218421</Elevation>
+            </ComputedGrid>
+        </PointRecord>
+
+        <PointRecord ID="000000c1" TimeStamp="2013-07-19T11:13:40">
+            <Name>13605</Name>
+            <Code>CHAN</Code>
+            <Method>Coordinates</Method>
+            <SurveyMethod>Fix</SurveyMethod>
+            <Classification>Normal</Classification>
+            <Deleted>false</Deleted>
+
+            <WGS84>
+                <Latitude>39.991786348365</Latitude>
+                <Longitude>-76.26128944313</Longitude>
+                <Height>63.551583301856</Height>
+            </WGS84>
+
+            <ComputedGrid>
+                <North>74182.737821684</North>
+                <East>727134.84842312</East>
+                <Elevation>97.403720427398</Elevation>
+            </ComputedGrid>
+        </PointRecord>
+
+        <PointRecord ID="000000c4" TimeStamp="2013-07-19T11:13:40">
+            <Name>13606</Name>
+            <Code>CHAN</Code>
+            <Method>Coordinates</Method>
+            <SurveyMethod>Fix</SurveyMethod>
+            <Classification>Normal</Classification>
+            <Deleted>false</Deleted>
+
+            <WGS84>
+                <Latitude>39.991786431443</Latitude>
+                <Longitude>-76.26129128535</Longitude>
+                <Height>63.504759453817</Height>
+            </WGS84>
+
+            <ComputedGrid>
+                <North>74182.74439272</North>
+                <East>727134.69095822</East>
+                <Elevation>97.356897203686</Elevation>
+            </ComputedGrid>
+        </PointRecord>
+
+        <PointRecord ID="000000c7" TimeStamp="2013-07-19T11:13:40">
+            <Name>13607</Name>
+            <Code>WS</Code>
+            <Method>Coordinates</Method>
+            <SurveyMethod>Fix</SurveyMethod>
+            <Classification>Normal</Classification>
+            <Deleted>false</Deleted>
+
+            <WGS84>
+                <Latitude>39.991786220426</Latitude>
+                <Longitude>-76.2612919306</Longitude>
+                <Height>63.69013588561</Height>
+            </WGS84>
+
+            <ComputedGrid>
+                <North>74182.720037175</North>
+                <East>727134.63625449</East>
+                <Elevation>97.542272635984</Elevation>
+            </ComputedGrid>
+        </PointRecord>
+
+        <PointRecord ID="000000ca" TimeStamp="2013-07-19T11:13:40">
+            <Name>13608</Name>
+            <Code>CHAN</Code>
+            <Method>Coordinates</Method>
+            <SurveyMethod>Fix</SurveyMethod>
+            <Classification>Normal</Classification>
+            <Deleted>false</Deleted>
+
+            <WGS84>
+                <Latitude>39.991786649917</Latitude>
+                <Longitude>-76.261292985961</Longitude>
+                <Height>63.484854897133</Height>
+            </WGS84>
+
+            <ComputedGrid>
+                <North>74182.766198979</North>
+                <East>727134.54533207</East>
+                <Elevation>97.336993942621</Elevation>
+            </ComputedGrid>
+        </PointRecord>
+
+        <PointRecord ID="000000cd" TimeStamp="2013-07-19T11:13:40">
+            <Name>13609</Name>
+            <Code>CHAN</Code>
+            <Method>Coordinates</Method>
+            <SurveyMethod>Fix</SurveyMethod>
+            <Classification>Normal</Classification>
+            <Deleted>false</Deleted>
+
+            <WGS84>
+                <Latitude>39.99178700095</Latitude>
+                <Longitude>-76.261294093797</Longitude>
+                <Height>63.446525659992</Height>
+            </WGS84>
+
+            <ComputedGrid>
+                <North>74182.80357501</North>
+                <East>727134.45007559</East>
+                <Elevation>97.298666608333</Elevation>
+            </ComputedGrid>
+        </PointRecord>
+
+        <PointRecord ID="000000d0" TimeStamp="2013-07-19T11:13:40">
+            <Name>13610</Name>
+            <Code>BKE</Code>
+            <Method>Coordinates</Method>
+            <SurveyMethod>Fix</SurveyMethod>
+            <Classification>Normal</Classification>
+            <Deleted>false</Deleted>
+
+            <WGS84>
+                <Latitude>39.991784314748</Latitude>
+                <Longitude>-76.26129686883</Longitude>
+                <Height>64.278129507436</Height>
+            </WGS84>
+
+            <ComputedGrid>
+                <North>74182.501363952</North>
+                <East>727134.21813979</East>
+                <Elevation>98.130257133425</Elevation>
+            </ComputedGrid>
+        </PointRecord>
+
+        <PointRecord ID="000000d3" TimeStamp="2013-07-19T11:13:40">
+            <Name>13611</Name>
+            <Code>BKE</Code>
+            <Method>Coordinates</Method>
+            <SurveyMethod>Fix</SurveyMethod>
+            <Classification>Normal</Classification>
+            <Deleted>false</Deleted>
+
+            <WGS84>
+                <Latitude>39.991785779252</Latitude>
+                <Longitude>-76.261301570777</Longitude>
+                <Height>64.388372817656</Height>
+            </WGS84>
+
+            <ComputedGrid>
+                <North>74182.6571809</North>
+                <East>727133.81389377</East>
+                <Elevation>98.240508391035</Elevation>
+            </ComputedGrid>
+        </PointRecord>
+
+        <PointRecord ID="000000d6" TimeStamp="2013-07-19T11:13:40">
+            <Name>13612</Name>
+            <Code>GND</Code>
+            <Method>Coordinates</Method>
+            <SurveyMethod>Fix</SurveyMethod>
+            <Classification>Normal</Classification>
+            <Deleted>false</Deleted>
+
+            <WGS84>
+                <Latitude>39.991785860593</Latitude>
+                <Longitude>-76.261301438686</Longitude>
+                <Height>64.385448897837</Height>
+            </WGS84>
+
+            <ComputedGrid>
+                <North>74182.666401352</North>
+                <East>727133.82502094</East>
+                <Elevation>98.237584869347</Elevation>
+            </ComputedGrid>
+        </PointRecord>
+
+        <PointRecord ID="000000d9" TimeStamp="2013-07-19T11:13:40">
+            <Name>13613</Name>
+            <Code>GND</Code>
+            <Method>Coordinates</Method>
+            <SurveyMethod>Fix</SurveyMethod>
+            <Classification>Normal</Classification>
+            <Deleted>false</Deleted>
+
+            <WGS84>
+                <Latitude>39.991786592494</Latitude>
+                <Longitude>-76.261304842195</Longitude>
+                <Height>64.337041047981</Height>
+            </WGS84>
+
+            <ComputedGrid>
+                <North>74182.742755631</North>
+                <East>727133.5330213</East>
+                <Elevation>98.189181107227</Elevation>
+            </ComputedGrid>
+        </PointRecord>
+
+        <PointRecord ID="000000dc" TimeStamp="2013-07-19T11:13:40">
+            <Name>13614</Name>
+            <Code>GND</Code>
+            <Method>Coordinates</Method>
+            <SurveyMethod>Fix</SurveyMethod>
+            <Classification>Normal</Classification>
+            <Deleted>false</Deleted>
+
+            <WGS84>
+                <Latitude>39.991787274339</Latitude>
+                <Longitude>-76.261308648501</Longitude>
+                <Height>64.297106923184</Height>
+            </WGS84>
+
+            <ComputedGrid>
+                <North>74182.812972947</North>
+                <East>727133.20672004</East>
+                <Elevation>98.149250860511</Elevation>
+            </ComputedGrid>
+        </PointRecord>
+
+        <FeatureCodingRecord ID="000000df" TimeStamp="2013-07-19T13:19:52">
+            <LibraryName>Topography</LibraryName>
+            <SourceFilename>Topography.fxl</SourceFilename>
+            <AttributeCheckSum>0</AttributeCheckSum>
+            <AttributesStored>false</AttributesStored>
+        </FeatureCodingRecord>
+
+        <CorrectionsRecord ID="000000e0" TimeStamp="2013-07-19T13:19:52">
+            <SouthAzimuth>false</SouthAzimuth>
+            <GridOrientation>IncreasingNorthEast</GridOrientation>
+            <MagneticDeclination>0</MagneticDeclination>
+            <Distances>GroundDistance</Distances>
+            <ApplySeaLevelCorrection>true</ApplySeaLevelCorrection>
+            <NeighbourhoodAdjustment>
+                <Applied>false</Applied>
+                <WeightExponent>0.5</WeightExponent>
+            </NeighbourhoodAdjustment>
+        </CorrectionsRecord>
+
+        <TimeZoneRecord ID="000000e2" TimeStamp="2013-07-19T13:19:52">
+            <ZoneName>Eastern Daylight Time</ZoneName>
+            <HoursToUTC>4</HoursToUTC>
+        </TimeZoneRecord>
+    </FieldBook>
+
+    <Reductions>
+
+        <Point>
+            <ID>0000000d</ID>
+            <Name>BASE</Name>
+            <Code>Base</Code>
+            <SurveyMethod>KeyedIn</SurveyMethod>
+            <Classification>Normal</Classification>
+
+            <Grid>
+                <North>74285.35504191</North>
+                <East>727147.77546355</East>
+                <Elevation>103.28199136398</Elevation>
+            </Grid>
+        </Point>
+
+        <Point>
+            <ID>00000010</ID>
+            <Name>4476</Name>
+            <Code>XS JST GND</Code>
+            <SurveyMethod>KeyedIn</SurveyMethod>
+            <Classification>Normal</Classification>
+
+            <Grid>
+                <North>74167.203048006</North>
+                <East>727146.39136398</East>
+                <Elevation>99.189128778258</Elevation>
+            </Grid>
+        </Point>
+
+        <Point>
+            <ID>00000013</ID>
+            <Name>4477</Name>
+            <Code>XS J JEND</Code>
+            <SurveyMethod>KeyedIn</SurveyMethod>
+            <Classification>Normal</Classification>
+
+            <Grid>
+                <North>74180.09489459</North>
+                <East>727146.46695453</East>
+                <Elevation>98.871221742443</Elevation>
+            </Grid>
+        </Point>
+
+        <Point>
+            <ID>00000016</ID>
+            <Name>4478</Name>
+            <Code>GND</Code>
+            <SurveyMethod>KeyedIn</SurveyMethod>
+            <Classification>Normal</Classification>
+
+            <Grid>
+                <North>74180.09489459</North>
+                <East>727146.46695453</East>
+                <Elevation>98.871221742443</Elevation>
+            </Grid>
+        </Point>
+
+        <Point>
+            <ID>00000019</ID>
+            <Name>13551</Name>
+            <Code>GND</Code>
+            <SurveyMethod>Fix</SurveyMethod>
+            <Classification>Normal</Classification>
+
+            <WGS84>
+                <Latitude>39.991645680637</Latitude>
+                <Longitude>-76.261157808067</Longitude>
+                <Height>64.709830473757</Height>
+            </WGS84>
+
+            <Grid>
+                <North>74167.310721754</North>
+                <East>727146.35220684</East>
+                <Elevation>98.560957605526</Elevation>
+            </Grid>
+        </Point>
+
+        <Point>
+            <ID>0000001c</ID>
+            <Name>13552</Name>
+            <Code>GND</Code>
+            <SurveyMethod>Fix</SurveyMethod>
+            <Classification>Normal</Classification>
+
+            <WGS84>
+                <Latitude>39.991651316745</Latitude>
+                <Longitude>-76.261156975404</Longitude>
+                <Height>64.723871860302</Height>
+            </WGS84>
+
+            <Grid>
+                <North>74167.937628539</North>
+                <East>727146.41275926</East>
+                <Elevation>98.57502750174</Elevation>
+            </Grid>
+        </Point>
+
+        <Point>
+            <ID>0000001f</ID>
+            <Name>13553</Name>
+            <Code>GND</Code>
+            <SurveyMethod>Fix</SurveyMethod>
+            <Classification>Normal</Classification>
+
+            <WGS84>
+                <Latitude>39.991655901499</Latitude>
+                <Longitude>-76.261157190369</Longitude>
+                <Height>64.750585118888</Height>
+            </WGS84>
+
+            <Grid>
+                <North>74168.44630806</North>
+                <East>727146.38582123</East>
+                <Elevation>98.601764043035</Elevation>
+            </Grid>
+        </Point>
+
+        <Point>
+            <ID>00000022</ID>
+            <Name>13554</Name>
+            <Code>GND</Code>
+            <SurveyMethod>Fix</SurveyMethod>
+            <Classification>Normal</Classification>
+
+            <WGS84>
+                <Latitude>39.99165958162</Latitude>
+                <Longitude>-76.261157002528</Longitude>
+                <Height>64.743982370591</Height>
+            </WGS84>
+
+            <Grid>
+                <North>74168.855137213</North>
+                <East>727146.39497268</East>
+                <Elevation>98.595179946581</Elevation>
+            </Grid>
+        </Point>
+
+        <Point>
+            <ID>00000025</ID>
+            <Name>13555</Name>
+            <Code>GND</Code>
+            <SurveyMethod>Fix</SurveyMethod>
+            <Classification>Normal</Classification>
+
+            <WGS84>
+                <Latitude>39.991662707564</Latitude>
+                <Longitude>-76.261156583082</Longitude>
+                <Height>64.735589871763</Height>
+            </WGS84>
+
+            <Grid>
+                <North>74169.20277634</North>
+                <East>727146.42493852</East>
+                <Elevation>98.586803264265</Elevation>
+            </Grid>
+        </Point>
+
+        <Point>
+            <ID>00000028</ID>
+            <Name>13556</Name>
+            <Code>GND</Code>
+            <SurveyMethod>Fix</SurveyMethod>
+            <Classification>Normal</Classification>
+
+            <WGS84>
+                <Latitude>39.991666235248</Latitude>
+                <Longitude>-76.261156346271</Longitude>
+                <Height>64.70747100713</Height>
+            </WGS84>
+
+            <Grid>
+                <North>74169.594752786</North>
+                <East>727146.43855691</East>
+                <Elevation>98.558702273031</Elevation>
+            </Grid>
+        </Point>
+
+        <Point>
+            <ID>0000002b</ID>
+            <Name>13557</Name>
+            <Code>GND</Code>
+            <SurveyMethod>Fix</SurveyMethod>
+            <Classification>Normal</Classification>
+
+            <WGS84>
+                <Latitude>39.991669278266</Latitude>
+                <Longitude>-76.26115574391</Longitude>
+                <Height>64.709113019167</Height>
+            </WGS84>
+
+            <Grid>
+                <North>74169.933449011</North>
+                <East>727146.48429733</East>
+                <Elevation>98.560641494468</Elevation>
+            </Grid>
+        </Point>
+
+        <Point>
+            <ID>0000002e</ID>
+            <Name>13558</Name>
+            <Code>GND</Code>
+            <SurveyMethod>Fix</SurveyMethod>
+            <Classification>Normal</Classification>
+
+            <WGS84>
+                <Latitude>39.991672301458</Latitude>
+                <Longitude>-76.261156875809</Longitude>
+                <Height>64.686489877871</Height>
+            </WGS84>
+
+            <Grid>
+                <North>74170.267447293</North>
+                <East>727146.38198403</East>
+                <Elevation>98.538033815654</Elevation>
+            </Grid>
+        </Point>
+
+        <Point>
+            <ID>00000031</ID>
+            <Name>13559</Name>
+            <Code>GND</Code>
+            <SurveyMethod>Fix</SurveyMethod>
+            <Classification>Normal</Classification>
+
+            <WGS84>
+                <Latitude>39.991677729031</Latitude>
+                <Longitude>-76.261157134793</Longitude>
+                <Height>64.702790694891</Height>
+            </WGS84>
+
+            <Grid>
+                <North>74170.869631294</North>
+                <East>727146.34970955</East>
+                <Elevation>98.554362197447</Elevation>
+            </Grid>
+        </Point>
+
+        <Point>
+            <ID>00000034</ID>
+            <Name>13560</Name>
+            <Code>GND</Code>
+            <SurveyMethod>Fix</SurveyMethod>
+            <Classification>Normal</Classification>
+
+            <WGS84>
+                <Latitude>39.991681636905</Latitude>
+                <Longitude>-76.261156724817</Longitude>
+                <Height>64.611486835054</Height>
+            </WGS84>
+
+            <Grid>
+                <North>74171.304064888</North>
+                <East>727146.37740309</East>
+                <Elevation>98.463078118559</Elevation>
+            </Grid>
+        </Point>
+
+        <Point>
+            <ID>00000037</ID>
+            <Name>13561</Name>
+            <Code>GND</Code>
+            <SurveyMethod>Fix</SurveyMethod>
+            <Classification>Normal</Classification>
+
+            <WGS84>
+                <Latitude>39.991685975644</Latitude>
+                <Longitude>-76.261156074026</Longitude>
+                <Height>64.611323468967</Height>
+            </WGS84>
+
+            <Grid>
+                <North>74171.786678852</North>
+                <East>727146.42485363</East>
+                <Elevation>98.462936692661</Elevation>
+            </Grid>
+        </Point>
+
+        <Point>
+            <ID>0000003a</ID>
+            <Name>13562</Name>
+            <Code>GND</Code>
+            <SurveyMethod>Fix</SurveyMethod>
+            <Classification>Normal</Classification>
+
+            <WGS84>
+                <Latitude>39.991689180464</Latitude>
+                <Longitude>-76.261156931384</Longitude>
+                <Height>64.423972163929</Height>
+            </WGS84>
+
+            <Grid>
+                <North>74172.141236336</North>
+                <East>727146.3456438</East>
+                <Elevation>98.275601740993</Elevation>
+            </Grid>
+        </Point>
+
+        <Point>
+            <ID>0000003d</ID>
+            <Name>13563</Name>
+            <Code>GND</Code>
+            <SurveyMethod>Fix</SurveyMethod>
+            <Classification>Normal</Classification>
+
+            <WGS84>
+                <Latitude>39.991691527502</Latitude>
+                <Longitude>-76.261156465845</Longitude>
+                <Height>64.249824511467</Height>
+            </WGS84>
+
+            <Grid>
+                <North>74172.402469446</North>
+                <East>727146.38100355</East>
+                <Elevation>98.101465944416</Elevation>
+            </Grid>
+        </Point>
+
+        <Point>
+            <ID>00000040</ID>
+            <Name>13564</Name>
+            <Code>BKT</Code>
+            <SurveyMethod>Fix</SurveyMethod>
+            <Classification>Normal</Classification>
+
+            <WGS84>
+                <Latitude>39.991693253077</Latitude>
+                <Longitude>-76.261155835594</Longitude>
+                <Height>64.172398367545</Height>
+            </WGS84>
+
+            <Grid>
+                <North>74172.594946286</North>
+                <East>727146.43159154</East>
+                <Elevation>98.024048485348</Elevation>
+            </Grid>
+        </Point>
+
+        <Point>
+            <ID>00000043</ID>
+            <Name>13565</Name>
+            <Code>WSE</Code>
+            <SurveyMethod>Fix</SurveyMethod>
+            <Classification>Normal</Classification>
+
+            <WGS84>
+                <Latitude>39.991696983136</Latitude>
+                <Longitude>-76.261156030656</Longitude>
+                <Height>63.828439842558</Height>
+            </WGS84>
+
+            <Grid>
+                <North>74173.008768155</North>
+                <East>727146.4079529</East>
+                <Elevation>97.680108905245</Elevation>
+            </Grid>
+        </Point>
+
+        <Point>
+            <ID>00000046</ID>
+            <Name>13566</Name>
+            <Code>CHAN</Code>
+            <SurveyMethod>Fix</SurveyMethod>
+            <Classification>Normal</Classification>
+
+            <WGS84>
+                <Latitude>39.991696958256</Latitude>
+                <Longitude>-76.261155953335</Longitude>
+                <Height>63.705883396438</Height>
+            </WGS84>
+
+            <Grid>
+                <North>74173.006117358</North>
+                <East>727146.41460201</East>
+                <Elevation>97.557552324387</Elevation>
+            </Grid>
+        </Point>
+
+        <Point>
+            <ID>00000049</ID>
+            <Name>13567</Name>
+            <Code>CHAN</Code>
+            <SurveyMethod>Fix</SurveyMethod>
+            <Classification>Normal</Classification>
+
+            <WGS84>
+                <Latitude>39.991698839665</Latitude>
+                <Longitude>-76.261156653425</Longitude>
+                <Height>63.739093215784</Height>
+            </WGS84>
+
+            <Grid>
+                <North>74173.213979171</North>
+                <East>727146.35129872</East>
+                <Elevation>97.59077176561</Elevation>
+            </Grid>
+        </Point>
+
+        <Point>
+            <ID>0000004c</ID>
+            <Name>13568</Name>
+            <Code>CHAN</Code>
+            <SurveyMethod>Fix</SurveyMethod>
+            <Classification>Normal</Classification>
+
+            <WGS84>
+                <Latitude>39.99170090989</Latitude>
+                <Longitude>-76.261155660687</Longitude>
+                <Height>63.744881807475</Height>
+            </WGS84>
+
+            <Grid>
+                <North>74173.445240164</North>
+                <East>727146.43219483</East>
+                <Elevation>97.596570750541</Elevation>
+            </Grid>
+        </Point>
+
+        <Point>
+            <ID>0000004f</ID>
+            <Name>13569</Name>
+            <Code>CHAN</Code>
+            <SurveyMethod>Fix</SurveyMethod>
+            <Classification>Normal</Classification>
+
+            <WGS84>
+                <Latitude>39.991702355213</Latitude>
+                <Longitude>-76.261156072181</Longitude>
+                <Height>63.725102895519</Height>
+            </WGS84>
+
+            <Grid>
+                <North>74173.605104204</North>
+                <East>727146.39435141</East>
+                <Elevation>97.576799216278</Elevation>
+            </Grid>
+        </Point>
+
+        <Point>
+            <ID>00000052</ID>
+            <Name>13570</Name>
+            <Code>CHAN</Code>
+            <SurveyMethod>Fix</SurveyMethod>
+            <Classification>Normal</Classification>
+
+            <WGS84>
+                <Latitude>39.991703798487</Latitude>
+                <Longitude>-76.261156090988</Longitude>
+                <Height>63.745283685273</Height>
+            </WGS84>
+
+            <Grid>
+                <North>74173.76530614</North>
+                <East>727146.39004389</East>
+                <Elevation>97.596987330044</Elevation>
+            </Grid>
+        </Point>
+
+        <Point>
+            <ID>00000055</ID>
+            <Name>13571</Name>
+            <Code>CHAN</Code>
+            <SurveyMethod>Fix</SurveyMethod>
+            <Classification>Normal</Classification>
+
+            <WGS84>
+                <Latitude>39.991705368066</Latitude>
+                <Longitude>-76.261156469781</Longitude>
+                <Height>63.755203030652</Height>
+            </WGS84>
+
+            <Grid>
+                <North>74173.939011883</North>
+                <East>727146.35476028</East>
+                <Elevation>97.606914679852</Elevation>
+            </Grid>
+        </Point>
+
+        <Point>
+            <ID>00000058</ID>
+            <Name>13572</Name>
+            <Code>BKT</Code>
+            <SurveyMethod>Fix</SurveyMethod>
+            <Classification>Normal</Classification>
+
+            <WGS84>
+                <Latitude>39.991707748011</Latitude>
+                <Longitude>-76.261155899909</Longitude>
+                <Height>63.789836919515</Height>
+            </WGS84>
+
+            <Grid>
+                <North>74174.204048466</North>
+                <East>727146.39896754</East>
+                <Elevation>97.641560579641</Elevation>
+            </Grid>
+        </Point>
+
+        <Point>
+            <ID>0000005b</ID>
+            <Name>13573</Name>
+            <Code>BKE</Code>
+            <SurveyMethod>Fix</SurveyMethod>
+            <Classification>Normal</Classification>
+
+            <WGS84>
+                <Latitude>39.991710228609</Latitude>
+                <Longitude>-76.261156224675</Longitude>
+                <Height>63.986110001451</Height>
+            </WGS84>
+
+            <Grid>
+                <North>74174.478971261</North>
+                <East>727146.36659209</East>
+                <Elevation>97.83784628168</Elevation>
+            </Grid>
+        </Point>
+
+        <Point>
+            <ID>0000005e</ID>
+            <Name>13574</Name>
+            <Code>GND</Code>
+            <SurveyMethod>Fix</SurveyMethod>
+            <Classification>Normal</Classification>
+
+            <WGS84>
+                <Latitude>39.991713809988</Latitude>
+                <Longitude>-76.261154599018</Longitude>
+                <Height>64.08434044162</Height>
+            </WGS84>
+
+            <Grid>
+                <North>74174.878908401</North>
+                <East>727146.49870533</East>
+                <Elevation>97.936094711166</Elevation>
+            </Grid>
+        </Point>
+
+        <Point>
+            <ID>00000061</ID>
+            <Name>13575</Name>
+            <Code>GND</Code>
+            <SurveyMethod>Fix</SurveyMethod>
+            <Classification>Normal</Classification>
+
+            <WGS84>
+                <Latitude>39.991717214599</Latitude>
+                <Longitude>-76.261153919357</Longitude>
+                <Height>64.141736178307</Height>
+            </WGS84>
+
+            <Grid>
+                <North>74175.257859155</North>
+                <East>727146.55036961</East>
+                <Elevation>97.993507644565</Elevation>
+            </Grid>
+        </Point>
+
+        <Point>
+            <ID>00000064</ID>
+            <Name>13576</Name>
+            <Code>GND</Code>
+            <SurveyMethod>Fix</SurveyMethod>
+            <Classification>Normal</Classification>
+
+            <WGS84>
+                <Latitude>39.991720608337</Latitude>
+                <Longitude>-76.261154633389</Longitude>
+                <Height>64.200362480825</Height>
+            </WGS84>
+
+            <Grid>
+                <North>74175.63359624</North>
+                <East>727146.48304499</East>
+                <Elevation>98.052151242247</Elevation>
+            </Grid>
+        </Point>
+
+        <Point>
+            <ID>00000067</ID>
+            <Name>13577</Name>
+            <Code>GND</Code>
+            <SurveyMethod>Fix</SurveyMethod>
+            <Classification>Normal</Classification>
+
+            <WGS84>
+                <Latitude>39.991723947063</Latitude>
+                <Longitude>-76.261154967186</Longitude>
+                <Height>64.206573175846</Height>
+            </WGS84>
+
+            <Grid>
+                <North>74176.003773462</North>
+                <East>727146.4482921</East>
+                <Elevation>98.058378911331</Elevation>
+            </Grid>
+        </Point>
+
+        <Point>
+            <ID>0000006a</ID>
+            <Name>13578</Name>
+            <Code>GND</Code>
+            <SurveyMethod>Fix</SurveyMethod>
+            <Classification>Normal</Classification>
+
+            <WGS84>
+                <Latitude>39.991726473871</Latitude>
+                <Longitude>-76.261155368995</Longitude>
+                <Height>64.173169704734</Height>
+            </WGS84>
+
+            <Grid>
+                <North>74176.283715465</North>
+                <East>727146.40925135</East>
+                <Elevation>98.0249883029</Elevation>
+            </Grid>
+        </Point>
+
+        <Point>
+            <ID>0000006d</ID>
+            <Name>13579</Name>
+            <Code>GND</Code>
+            <SurveyMethod>Fix</SurveyMethod>
+            <Classification>Normal</Classification>
+
+            <WGS84>
+                <Latitude>39.991729958767</Latitude>
+                <Longitude>-76.261154471473</Longitude>
+                <Height>64.225406545794</Height>
+            </WGS84>
+
+            <Grid>
+                <North>74176.671892945</North>
+                <East>727146.47936877</East>
+                <Elevation>98.077242723477</Elevation>
+            </Grid>
+        </Point>
+
+        <Point>
+            <ID>00000070</ID>
+            <Name>13580</Name>
+            <Code>GND</Code>
+            <SurveyMethod>Fix</SurveyMethod>
+            <Classification>Normal</Classification>
+
+            <WGS84>
+                <Latitude>39.991733391218</Latitude>
+                <Longitude>-76.261154713432</Longitude>
+                <Height>64.356556616372</Height>
+            </WGS84>
+
+            <Grid>
+                <North>74177.052607527</North>
+                <East>727146.45228261</East>
+                <Elevation>98.208410233168</Elevation>
+            </Grid>
+        </Point>
+
+        <Point>
+            <ID>00000073</ID>
+            <Name>13581</Name>
+            <Code>GND</Code>
+            <SurveyMethod>Fix</SurveyMethod>
+            <Classification>Normal</Classification>
+
+            <WGS84>
+                <Latitude>39.991737732089</Latitude>
+                <Longitude>-76.261153625831</Longitude>
+                <Height>64.288469767778</Height>
+            </WGS84>
+
+            <Grid>
+                <North>74177.536087085</North>
+                <East>727146.53702887</East>
+                <Elevation>98.140345285037</Elevation>
+            </Grid>
+        </Point>
+
+        <Point>
+            <ID>00000076</ID>
+            <Name>13582</Name>
+            <Code>GND</Code>
+            <SurveyMethod>Fix</SurveyMethod>
+            <Classification>Normal</Classification>
+
+            <WGS84>
+                <Latitude>39.991740989112</Latitude>
+                <Longitude>-76.261154106654</Longitude>
+                <Height>64.301731043144</Height>
+            </WGS84>
+
+            <Grid>
+                <North>74177.896982142</North>
+                <East>727146.48987418</East>
+                <Elevation>98.153623135741</Elevation>
+            </Grid>
+        </Point>
+
+        <Point>
+            <ID>00000079</ID>
+            <Name>13583</Name>
+            <Code>GND</Code>
+            <SurveyMethod>Fix</SurveyMethod>
+            <Classification>Normal</Classification>
+
+            <WGS84>
+                <Latitude>39.991745252344</Latitude>
+                <Longitude>-76.261155239506</Longitude>
+                <Height>64.2018151317</Height>
+            </WGS84>
+
+            <Grid>
+                <North>74178.368645488</North>
+                <East>727146.38515846</East>
+                <Elevation>98.053728975841</Elevation>
+            </Grid>
+        </Point>
+
+        <Point>
+            <ID>0000007c</ID>
+            <Name>13584</Name>
+            <Code>GND</Code>
+            <SurveyMethod>Fix</SurveyMethod>
+            <Classification>Normal</Classification>
+
+            <WGS84>
+                <Latitude>39.991749216684</Latitude>
+                <Longitude>-76.261154232014</Longitude>
+                <Height>64.312285943536</Height>
+            </WGS84>
+
+            <Grid>
+                <North>74178.810208084</North>
+                <East>727146.4637689</East>
+                <Elevation>98.164219786426</Elevation>
+            </Grid>
+        </Point>
+
+        <Point>
+            <ID>0000007f</ID>
+            <Name>13585</Name>
+            <Code>GND</Code>
+            <SurveyMethod>Fix</SurveyMethod>
+            <Classification>Normal</Classification>
+
+            <WGS84>
+                <Latitude>39.991753523596</Latitude>
+                <Longitude>-76.261153540221</Longitude>
+                <Height>64.325260243027</Height>
+            </WGS84>
+
+            <Grid>
+                <North>74179.289347723</North>
+                <East>727146.51478016</East>
+                <Elevation>98.177215857118</Elevation>
+            </Grid>
+        </Point>
+
+        <Point>
+            <ID>00000082</ID>
+            <Name>13586</Name>
+            <Code>GND</Code>
+            <SurveyMethod>Fix</SurveyMethod>
+            <Classification>Normal</Classification>
+
+            <WGS84>
+                <Latitude>39.991757437111</Latitude>
+                <Longitude>-76.2611530413</Longitude>
+                <Height>64.474019224404</Height>
+            </WGS84>
+
+            <Grid>
+                <North>74179.724535628</North>
+                <East>727146.5500582</East>
+                <Elevation>98.325994635253</Elevation>
+            </Grid>
+        </Point>
+
+        <Point>
+            <ID>00000085</ID>
+            <Name>13587</Name>
+            <Code>GND</Code>
+            <SurveyMethod>Fix</SurveyMethod>
+            <Classification>Normal</Classification>
+
+            <WGS84>
+                <Latitude>39.991761147068</Latitude>
+                <Longitude>-76.26115381584</Longitude>
+                <Height>64.485084119833</Height>
+            </WGS84>
+
+            <Grid>
+                <North>74180.135291517</North>
+                <East>727146.47697484</East>
+                <Elevation>98.337078435521</Elevation>
+            </Grid>
+        </Point>
+
+        <Point>
+            <ID>00000088</ID>
+            <Name>4471</Name>
+            <Code>XS JEND GND</Code>
+            <SurveyMethod>KeyedIn</SurveyMethod>
+            <Classification>Normal</Classification>
+
+            <Grid>
+                <North>74181.64511049</North>
+                <East>727141.76845314</East>
+                <Elevation>98.694132588265</Elevation>
+            </Grid>
+        </Point>
+
+        <Point>
+            <ID>0000008b</ID>
+            <Name>4430</Name>
+            <Code>XS JST GND</Code>
+            <SurveyMethod>KeyedIn</SurveyMethod>
+            <Classification>Normal</Classification>
+
+            <Grid>
+                <North>74182.811277623</North>
+                <East>727133.25354331</East>
+                <Elevation>98.746863093726</Elevation>
+            </Grid>
+        </Point>
+
+        <Point>
+            <ID>0000008e</ID>
+            <Name>13588</Name>
+            <Code>GND</Code>
+            <SurveyMethod>Fix</SurveyMethod>
+            <Classification>Normal</Classification>
+
+            <WGS84>
+                <Latitude>39.991775794786</Latitude>
+                <Longitude>-76.261208263604</Longitude>
+                <Height>64.418531608416</Height>
+            </WGS84>
+
+            <Grid>
+                <North>74181.683058158</North>
+                <East>727141.80019534</East>
+                <Elevation>98.270606243954</Elevation>
+            </Grid>
+        </Point>
+
+        <Point>
+            <ID>00000091</ID>
+            <Name>13589</Name>
+            <Code>GND</Code>
+            <SurveyMethod>Fix</SurveyMethod>
+            <Classification>Normal</Classification>
+
+            <WGS84>
+                <Latitude>39.991774947874</Latitude>
+                <Longitude>-76.261211946084</Longitude>
+                <Height>64.297278252079</Height>
+            </WGS84>
+
+            <Grid>
+                <North>74181.583734243</North>
+                <East>727141.48732907</East>
+                <Elevation>98.149348997946</Elevation>
+            </Grid>
+        </Point>
+
+        <Point>
+            <ID>00000094</ID>
+            <Name>13590</Name>
+            <Code>GND</Code>
+            <SurveyMethod>Fix</SurveyMethod>
+            <Classification>Normal</Classification>
+
+            <WGS84>
+                <Latitude>39.991774645119</Latitude>
+                <Longitude>-76.261215916337</Longitude>
+                <Height>64.235133588894</Height>
+            </WGS84>
+
+            <Grid>
+                <North>74181.544407115</North>
+                <East>727141.14887097</East>
+                <Elevation>98.087203237188</Elevation>
+            </Grid>
+        </Point>
+
+        <Point>
+            <ID>00000097</ID>
+            <Name>13591</Name>
+            <Code>GND</Code>
+            <SurveyMethod>Fix</SurveyMethod>
+            <Classification>Normal</Classification>
+
+            <WGS84>
+                <Latitude>39.991774620361</Latitude>
+                <Longitude>-76.261220980363</Longitude>
+                <Height>64.254121360949</Height>
+            </WGS84>
+
+            <Grid>
+                <North>74181.534367912</North>
+                <East>727140.7164939</East>
+                <Elevation>98.106191442537</Elevation>
+            </Grid>
+        </Point>
+
+        <Point>
+            <ID>0000009a</ID>
+            <Name>13592</Name>
+            <Code>GND</Code>
+            <SurveyMethod>Fix</SurveyMethod>
+            <Classification>Normal</Classification>
+
+            <WGS84>
+                <Latitude>39.991774318526</Latitude>
+                <Longitude>-76.261226755711</Longitude>
+                <Height>64.21260876639</Height>
+            </WGS84>
+
+            <Grid>
+                <North>74181.492544189</North>
+                <East>727140.22389479</East>
+                <Elevation>98.064677954036</Elevation>
+            </Grid>
+        </Point>
+
+        <Point>
+            <ID>0000009d</ID>
+            <Name>13593</Name>
+            <Code>GND</Code>
+            <SurveyMethod>Fix</SurveyMethod>
+            <Classification>Normal</Classification>
+
+            <WGS84>
+                <Latitude>39.991774459755</Latitude>
+                <Longitude>-76.261233582666</Longitude>
+                <Height>64.1541400986</Height>
+            </WGS84>
+
+            <Grid>
+                <North>74181.498394493</North>
+                <East>727139.64066836</East>
+                <Elevation>98.006210755777</Elevation>
+            </Grid>
+        </Point>
+
+        <Point>
+            <ID>000000a0</ID>
+            <Name>13594</Name>
+            <Code>GND</Code>
+            <SurveyMethod>Fix</SurveyMethod>
+            <Classification>Normal</Classification>
+
+            <WGS84>
+                <Latitude>39.991776025426</Latitude>
+                <Longitude>-76.261238931692</Longitude>
+                <Height>64.119716459534</Height>
+            </WGS84>
+
+            <Grid>
+                <North>74181.664510901</North>
+                <East>727139.18097794</East>
+                <Elevation>97.971795649288</Elevation>
+            </Grid>
+        </Point>
+
+        <Point>
+            <ID>000000a3</ID>
+            <Name>13595</Name>
+            <Code>GND</Code>
+            <SurveyMethod>Fix</SurveyMethod>
+            <Classification>Normal</Classification>
+
+            <WGS84>
+                <Latitude>39.991776212309</Latitude>
+                <Longitude>-76.261244183568</Longitude>
+                <Height>64.112683431825</Height>
+            </WGS84>
+
+            <Grid>
+                <North>74181.677697275</North>
+                <East>727138.732164</East>
+                <Elevation>97.964764148761</Elevation>
+            </Grid>
+        </Point>
+
+        <Point>
+            <ID>000000a6</ID>
+            <Name>13596</Name>
+            <Code>GND</Code>
+            <SurveyMethod>Fix</SurveyMethod>
+            <Classification>Normal</Classification>
+
+            <WGS84>
+                <Latitude>39.991776866129</Latitude>
+                <Longitude>-76.261246651719</Longitude>
+                <Height>64.114428781553</Height>
+            </WGS84>
+
+            <Grid>
+                <North>74181.746729584</North>
+                <East>727138.52018179</East>
+                <Elevation>97.96651308747</Elevation>
+            </Grid>
+        </Point>
+
+        <Point>
+            <ID>000000a9</ID>
+            <Name>13597</Name>
+            <Code>GND</Code>
+            <SurveyMethod>Fix</SurveyMethod>
+            <Classification>Normal</Classification>
+
+            <WGS84>
+                <Latitude>39.991778394838</Latitude>
+                <Longitude>-76.261253252261</Longitude>
+                <Height>64.031378851852</Height>
+            </WGS84>
+
+            <Grid>
+                <North>74181.906940869</North>
+                <East>727137.95369211</East>
+                <Elevation>97.883471640653</Elevation>
+            </Grid>
+        </Point>
+
+        <Point>
+            <ID>000000ac</ID>
+            <Name>13598</Name>
+            <Code>GND</Code>
+            <SurveyMethod>Fix</SurveyMethod>
+            <Classification>Normal</Classification>
+
+            <WGS84>
+                <Latitude>39.991780233423</Latitude>
+                <Longitude>-76.261257553797</Longitude>
+                <Height>63.980039651154</Height>
+            </WGS84>
+
+            <Grid>
+                <North>74182.104863694</North>
+                <East>727137.58293739</East>
+                <Elevation>97.832142241389</Elevation>
+            </Grid>
+        </Point>
+
+        <Point>
+            <ID>000000af</ID>
+            <Name>13599</Name>
+            <Code>GND</Code>
+            <SurveyMethod>Fix</SurveyMethod>
+            <Classification>Normal</Classification>
+
+            <WGS84>
+                <Latitude>39.991782464557</Latitude>
+                <Longitude>-76.261262721777</Longitude>
+                <Height>64.026012163258</Height>
+            </WGS84>
+
+            <Grid>
+                <North>74182.345119066</North>
+                <East>727137.13746125</East>
+                <Elevation>97.878126641846</Elevation>
+            </Grid>
+        </Point>
+
+        <Point>
+            <ID>000000b2</ID>
+            <Name>13600</Name>
+            <Code>GND</Code>
+            <SurveyMethod>Fix</SurveyMethod>
+            <Classification>Normal</Classification>
+
+            <WGS84>
+                <Latitude>39.991783789261</Latitude>
+                <Longitude>-76.261267706004</Longitude>
+                <Height>63.918069111763</Height>
+            </WGS84>
+
+            <Grid>
+                <North>74182.485009199</North>
+                <East>727136.70937259</East>
+                <Elevation>97.77019086001</Elevation>
+            </Grid>
+        </Point>
+
+        <Point>
+            <ID>000000b5</ID>
+            <Name>13601</Name>
+            <Code>GND</Code>
+            <SurveyMethod>Fix</SurveyMethod>
+            <Classification>Normal</Classification>
+
+            <WGS84>
+                <Latitude>39.99178442134</Latitude>
+                <Longitude>-76.261275766253</Longitude>
+                <Height>63.846556497386</Height>
+            </WGS84>
+
+            <Grid>
+                <North>74182.543577336</North>
+                <East>727136.01991505</East>
+                <Elevation>97.698682340359</Elevation>
+            </Grid>
+        </Point>
+
+        <Point>
+            <ID>000000b8</ID>
+            <Name>13602</Name>
+            <Code>BKE</Code>
+            <SurveyMethod>Fix</SurveyMethod>
+            <Classification>Normal</Classification>
+
+            <WGS84>
+                <Latitude>39.991785427024</Latitude>
+                <Longitude>-76.261279736727</Longitude>
+                <Height>63.773124311699</Height>
+            </WGS84>
+
+            <Grid>
+                <North>74182.649510078</North>
+                <East>727135.67898913</East>
+                <Elevation>97.625255694068</Elevation>
+            </Grid>
+        </Point>
+
+        <Point>
+            <ID>000000bb</ID>
+            <Name>13603</Name>
+            <Code>BKT</Code>
+            <SurveyMethod>Fix</SurveyMethod>
+            <Classification>Normal</Classification>
+
+            <WGS84>
+                <Latitude>39.99178643626</Latitude>
+                <Longitude>-76.261285426397</Longitude>
+                <Height>63.685672531484</Height>
+            </WGS84>
+
+            <Grid>
+                <North>74182.75336217</North>
+                <East>727135.19125232</East>
+                <Elevation>97.53780966059</Elevation>
+            </Grid>
+        </Point>
+
+        <Point>
+            <ID>000000be</ID>
+            <Name>13604</Name>
+            <Code>CHAN</Code>
+            <SurveyMethod>Fix</SurveyMethod>
+            <Classification>Normal</Classification>
+
+            <WGS84>
+                <Latitude>39.991786826566</Latitude>
+                <Longitude>-76.261287280757</Longitude>
+                <Height>63.604189904986</Height>
+            </WGS84>
+
+            <Grid>
+                <North>74182.794023479</North>
+                <East>727135.03217575</East>
+                <Elevation>97.456329218421</Elevation>
+            </Grid>
+        </Point>
+
+        <Point>
+            <ID>000000c1</ID>
+            <Name>13605</Name>
+            <Code>CHAN</Code>
+            <SurveyMethod>Fix</SurveyMethod>
+            <Classification>Normal</Classification>
+
+            <WGS84>
+                <Latitude>39.991786348365</Latitude>
+                <Longitude>-76.26128944313</Longitude>
+                <Height>63.551583301856</Height>
+            </WGS84>
+
+            <Grid>
+                <North>74182.737821684</North>
+                <East>727134.84842312</East>
+                <Elevation>97.403720427398</Elevation>
+            </Grid>
+        </Point>
+
+        <Point>
+            <ID>000000c4</ID>
+            <Name>13606</Name>
+            <Code>CHAN</Code>
+            <SurveyMethod>Fix</SurveyMethod>
+            <Classification>Normal</Classification>
+
+            <WGS84>
+                <Latitude>39.991786431443</Latitude>
+                <Longitude>-76.26129128535</Longitude>
+                <Height>63.504759453817</Height>
+            </WGS84>
+
+            <Grid>
+                <North>74182.74439272</North>
+                <East>727134.69095822</East>
+                <Elevation>97.356897203686</Elevation>
+            </Grid>
+        </Point>
+
+        <Point>
+            <ID>000000c7</ID>
+            <Name>13607</Name>
+            <Code>WS</Code>
+            <SurveyMethod>Fix</SurveyMethod>
+            <Classification>Normal</Classification>
+
+            <WGS84>
+                <Latitude>39.991786220426</Latitude>
+                <Longitude>-76.2612919306</Longitude>
+                <Height>63.69013588561</Height>
+            </WGS84>
+
+            <Grid>
+                <North>74182.720037175</North>
+                <East>727134.63625449</East>
+                <Elevation>97.542272635984</Elevation>
+            </Grid>
+        </Point>
+
+        <Point>
+            <ID>000000ca</ID>
+            <Name>13608</Name>
+            <Code>CHAN</Code>
+            <SurveyMethod>Fix</SurveyMethod>
+            <Classification>Normal</Classification>
+
+            <WGS84>
+                <Latitude>39.991786649917</Latitude>
+                <Longitude>-76.261292985961</Longitude>
+                <Height>63.484854897133</Height>
+            </WGS84>
+
+            <Grid>
+                <North>74182.766198979</North>
+                <East>727134.54533207</East>
+                <Elevation>97.336993942621</Elevation>
+            </Grid>
+        </Point>
+
+        <Point>
+            <ID>000000cd</ID>
+            <Name>13609</Name>
+            <Code>CHAN</Code>
+            <SurveyMethod>Fix</SurveyMethod>
+            <Classification>Normal</Classification>
+
+            <WGS84>
+                <Latitude>39.99178700095</Latitude>
+                <Longitude>-76.261294093797</Longitude>
+                <Height>63.446525659992</Height>
+            </WGS84>
+
+            <Grid>
+                <North>74182.80357501</North>
+                <East>727134.45007559</East>
+                <Elevation>97.298666608333</Elevation>
+            </Grid>
+        </Point>
+
+        <Point>
+            <ID>000000d0</ID>
+            <Name>13610</Name>
+            <Code>BKE</Code>
+            <SurveyMethod>Fix</SurveyMethod>
+            <Classification>Normal</Classification>
+
+            <WGS84>
+                <Latitude>39.991784314748</Latitude>
+                <Longitude>-76.26129686883</Longitude>
+                <Height>64.278129507436</Height>
+            </WGS84>
+
+            <Grid>
+                <North>74182.501363952</North>
+                <East>727134.21813979</East>
+                <Elevation>98.130257133425</Elevation>
+            </Grid>
+        </Point>
+
+        <Point>
+            <ID>000000d3</ID>
+            <Name>13611</Name>
+            <Code>BKE</Code>
+            <SurveyMethod>Fix</SurveyMethod>
+            <Classification>Normal</Classification>
+
+            <WGS84>
+                <Latitude>39.991785779252</Latitude>
+                <Longitude>-76.261301570777</Longitude>
+                <Height>64.388372817656</Height>
+            </WGS84>
+
+            <Grid>
+                <North>74182.6571809</North>
+                <East>727133.81389377</East>
+                <Elevation>98.240508391035</Elevation>
+            </Grid>
+        </Point>
+
+        <Point>
+            <ID>000000d6</ID>
+            <Name>13612</Name>
+            <Code>GND</Code>
+            <SurveyMethod>Fix</SurveyMethod>
+            <Classification>Normal</Classification>
+
+            <WGS84>
+                <Latitude>39.991785860593</Latitude>
+                <Longitude>-76.261301438686</Longitude>
+                <Height>64.385448897837</Height>
+            </WGS84>
+
+            <Grid>
+                <North>74182.666401352</North>
+                <East>727133.82502094</East>
+                <Elevation>98.237584869347</Elevation>
+            </Grid>
+        </Point>
+
+        <Point>
+            <ID>000000d9</ID>
+            <Name>13613</Name>
+            <Code>GND</Code>
+            <SurveyMethod>Fix</SurveyMethod>
+            <Classification>Normal</Classification>
+
+            <WGS84>
+                <Latitude>39.991786592494</Latitude>
+                <Longitude>-76.261304842195</Longitude>
+                <Height>64.337041047981</Height>
+            </WGS84>
+
+            <Grid>
+                <North>74182.742755631</North>
+                <East>727133.5330213</East>
+                <Elevation>98.189181107227</Elevation>
+            </Grid>
+        </Point>
+
+        <Point>
+            <ID>000000dc</ID>
+            <Name>13614</Name>
+            <Code>GND</Code>
+            <SurveyMethod>Fix</SurveyMethod>
+            <Classification>Normal</Classification>
+
+            <WGS84>
+                <Latitude>39.991787274339</Latitude>
+                <Longitude>-76.261308648501</Longitude>
+                <Height>64.297106923184</Height>
+            </WGS84>
+
+            <Grid>
+                <North>74182.812972947</North>
+                <East>727133.20672004</East>
+                <Elevation>98.149250860511</Elevation>
+            </Grid>
+        </Point>
+    </Reductions>
+
+    <Environment>
+
+        <DisplaySettings>
+            <DistanceUnits>USSurveyFeet</DistanceUnits>
+            <HeightUnits>USSurveyFeet</HeightUnits>
+            <AngleUnits>DMSDegrees</AngleUnits>
+            <AzimuthFormat>Azimuth</AzimuthFormat>
+            <LatitudeLongitudeUnits>DMSDegrees</LatitudeLongitudeUnits>
+            <CoordinateOrder>North-East-Elevation</CoordinateOrder>
+            <TemperatureUnits>Fahrenheit</TemperatureUnits>
+            <PressureUnits>InchHg</PressureUnits>
+            <GradeUnits>Percentage</GradeUnits>
+            <AreaUnits>SquareUSSurveyFeet</AreaUnits>
+            <StationingFormat>10+00.0</StationingFormat>
+        </DisplaySettings>
+
+        <CoordinateSystem>
+            <SystemName>US State Plane 1983</SystemName>
+            <ZoneName>Pennsylvania South 3702</ZoneName>
+            <DatumName>NAD 1983 (Conus)</DatumName>
+            <Ellipsoid>
+                <EarthRadius>6378137</EarthRadius>
+                <Flattening>0.00335281068751</Flattening>
+            </Ellipsoid>
+            <Projection>
+                <Type>Lambert2Parallel</Type>
+                <ShiftGridFileName/>
+                <CentralLatitude>39.333333333333</CentralLatitude>
+                <CentralLongitude>-77.75</CentralLongitude>
+                <FalseNorthing>0</FalseNorthing>
+                <FalseEasting>600000</FalseEasting>
+                <Parallel1>40.966666666667</Parallel1>
+                <Parallel2>39.933333333333</Parallel2>
+                <SouthAzimuth>false</SouthAzimuth>
+                <GridOrientation>IncreasingNorthEast</GridOrientation>
+                <ApplySeaLevelCorrection>true</ApplySeaLevelCorrection>
+            </Projection>
+            <LocalSite>
+                <Type>Grid</Type>
+                <ProjectLocationLatitude/>
+                <ProjectLocationLongitude/>
+                <ProjectLocationHeight>91.440182880366</ProjectLocationHeight>
+            </LocalSite>
+            <Datum>
+                <Type>ThreeParameter</Type>
+                <Direction>WGS84ToLocal</Direction>
+                <EarthRadius>6378137</EarthRadius>
+                <Flattening>0.00335281067183</Flattening>
+                <TranslationX>0</TranslationX>
+                <TranslationY>0</TranslationY>
+                <TranslationZ>0</TranslationZ>
+            </Datum>
+            <HorizontalAdjustment>
+                <Type>NoAdjustment</Type>
+            </HorizontalAdjustment>
+            <VerticalAdjustment>
+                <Type>GeoidModel</Type>
+                <GeoidName>GEOID03 (Conus)</GeoidName>
+            </VerticalAdjustment>
+            <CombinedScaleFactor>
+                <Location>
+                    <Latitude>39.99175117262</Latitude>
+                    <Longitude>-76.261200694632</Longitude>
+                    <Height>91.440182880366</Height>
+                </Location>
+                <Scale>0.99997706265724</Scale>
+            </CombinedScaleFactor>
+        </CoordinateSystem>
+
+        <JobSettings>
+            <NeighbourhoodAdjustment>
+                <Applied>false</Applied>
+                <WeightExponent>0.5</WeightExponent>
+            </NeighbourhoodAdjustment>
+        </JobSettings>
+
+        <TimeZone>
+            <ZoneName>Eastern Daylight Time</ZoneName>
+            <HoursToUTC>4</HoursToUTC>
+        </TimeZone>
+    </Environment>
+</JOBFile>
